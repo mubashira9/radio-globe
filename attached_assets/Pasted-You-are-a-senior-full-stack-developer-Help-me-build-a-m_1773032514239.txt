@@ -1,0 +1,51 @@
+You are a senior full-stack developer. Help me build a **mobile app called “Radio Globe”**.
+
+The app should allow users to explore a **3D globe and listen to local internet radio stations from any region in the world**.
+
+PROJECT GOAL
+Create an Android app where users can rotate and zoom into a 3D globe, select a country/state/city, and listen to radio stations from that area.
+
+FEATURES
+
+1. Display an interactive **3D globe** that users can rotate and zoom.
+2. When the user zooms into a location, show **radio station markers on the map**.
+3. Clicking a marker should open a **radio player**.
+4. The radio stream should play live inside the app.
+5. Users can **favorite stations**.
+6. Optional: show **station genre and language**.
+7. Optional: show **trending stations in that region**.
+
+TECH STACK
+Mobile App: Android Studio (Kotlin preferred)
+Map/Globe Visualization: Mapbox or another good 3D globe library
+Streaming Player: ExoPlayer
+Radio Station Data: Radio Browser API (https://www.radio-browser.info)
+Backend (optional): Firebase for favorites and chat
+
+FUNCTIONAL FLOW
+User opens the app
+→ Sees a 3D globe
+→ Rotates or zooms into a country
+→ App detects latitude and longitude
+→ App queries the radio API for stations near that location
+→ Stations appear as clickable markers
+→ User taps marker
+→ Radio stream starts playing
+
+WHAT I WANT FROM YOU
+
+1. A complete **system architecture** diagram.
+2. The **Android project structure**.
+3. Step-by-step instructions to build the app.
+4. Example **Kotlin code** for:
+
+   * displaying the globe
+   * detecting map coordinates
+   * calling the radio API
+   * showing station markers
+   * streaming audio with ExoPlayer
+5. Suggestions for improving performance and UI.
+6. Ideas to make the app **unique and impressive for a portfolio or hackathon**.
+
+IMPORTANT
+Explain things clearly because I am a **computer science student building this as a learning project**. Provide clean, runnable code examples and explain where each file should go in the project.
