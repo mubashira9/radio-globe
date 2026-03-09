@@ -1,0 +1,39 @@
+
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0K5:02:26 AM [express] serving on port 5000
+
+A PostCSS plugin did not pass the `from` option to `postcss.parse`. This may cause imported assets to be incorrectly transformed. If you've recently added a PostCSS plugin that raised this warning, please contact the package author to fix the issue.
+
+
+
+
+
+
+
+[1;1H[0J[2m5:04:40 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+
+
+
+
+
+
+
+
+[1;1H[0J[2m5:05:37 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m
+[2m5:05:46 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "react-globe.gl" from "client/src/components/GlobeView.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/runner/workspace/client/src/components/GlobeView.tsx[39m:2:36
+[33m  17 |  var _s = $RefreshSig$();
+  18 |  import { useEffect, useRef, useState, useMemo } from "react";
+  19 |  import Globe from "react-globe.gl";
+     |                     ^
+  20 |  export function GlobeView({ stations, activeStation, onStationClick }) {
+  21 |    _s();[39m
+[1G[0K⠙[1G[0K[1mnpm[22m [96mnotice[39m
+[1mnpm[22m [96mnotice[39m New [31mmajor[39m version of npm available! [31m10.8.2[39m -> [34m11.11.0[39m
+[1mnpm[22m [96mnotice[39m Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.11.0[39m
+[1mnpm[22m [96mnotice[39m To update run: [4mnpm install -g npm@11.11.0[24m
+[1mnpm[22m [96mnotice[39m
+[1G[0K⠙[1G[0K

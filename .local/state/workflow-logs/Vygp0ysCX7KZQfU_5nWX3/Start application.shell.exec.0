@@ -1,0 +1,6 @@
+[1G[0K⠙[1G[0K
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0K⠙[1G[0K2:13:41 PM [express] serving on port 5000
+2:13:51 PM [express] GET /api/favorites 200 in 30ms :: [{"id":1,"stationUuid":"e76ef8d4-ca55-4edc-bf5e-661f5de4c4b5","name":"Magesh  Tamil Radio","streamUrl":"http://stream.zeno.fm/ezmck9cz5bhvv","country":"India","favicon":"https://tools.zeno.fm/favicon.ico","tags":"folk music,melody","createdAt":"2026-03-09T05:11:37.568Z"}]

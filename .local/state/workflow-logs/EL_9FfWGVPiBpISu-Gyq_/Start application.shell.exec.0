@@ -1,0 +1,8 @@
+
+> rest-express@1.0.0 dev
+> NODE_ENV=development tsx server/index.ts
+
+[1G[0K5:27:52 AM [express] serving on port 5000
+5:28:03 AM [express] GET /api/favorites 304 in 707ms :: [{"id":1,"stationUuid":"e76ef8d4-ca55-4edc-bf5e-661f5de4c4b5","name":"Magesh  Tamil Radio","streamUrl":"http://stream.zeno.fm/ezmck9cz5bhvv","country":"India","favicon":"https://tools.zeno.fm/favicon.ico","tags":"folk music,melody","createdAt":"2026-03-09T05:11:37.568Z"}]
+5:31:22 AM [express] GET /api/favorites 304 in 10ms :: [{"id":1,"stationUuid":"e76ef8d4-ca55-4edc-bf5e-661f5de4c4b5","name":"Magesh  Tamil Radio","streamUrl":"http://stream.zeno.fm/ezmck9cz5bhvv","country":"India","favicon":"https://tools.zeno.fm/favicon.ico","tags":"folk music,melody","createdAt":"2026-03-09T05:11:37.568Z"}]
+5:33:25 AM [express] GET /api/favorites 304 in 11ms :: [{"id":1,"stationUuid":"e76ef8d4-ca55-4edc-bf5e-661f5de4c4b5","name":"Magesh  Tamil Radio","streamUrl":"http://stream.zeno.fm/ezmck9cz5bhvv","country":"India","favicon":"https://tools.zeno.fm/favicon.ico","tags":"folk music,melody","createdAt":"2026-03-09T05:11:37.568Z"}]
